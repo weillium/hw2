@@ -242,8 +242,8 @@ puts "======"
 puts ""
 
 # Query the movies data and loop through the results to display the movies output
-for movie in Movie
-    puts "#{movie.title}        #{movie.year}       #{movie.rated}     #{movie.director_id}"
+for movie in Movie.all
+    puts "#{movie.title}   #{movie.year_released}  #{movie.rated}   #{movie.director_id}"
 end
 
 # Prints a header for the cast output
