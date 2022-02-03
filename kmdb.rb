@@ -77,6 +77,19 @@ Role.destroy_all
 # rails generate model Person
 # rails generate model Role
 
+# in db/migrate files:
+# for movies, 
+#   t.string :title
+#   t.integer :year_released
+#   t.string :rated
+#   t.integer :director_id
+# for people,
+#   t.string :name 
+# for roles,
+#   t.integer :movie_id
+#   t.integer :actor_id
+#   t.string :character_name
+
 # Insert data into your database that reflects the sample data shown above
 # Do not use hard-coded foreign key IDs.
 # TODO!
