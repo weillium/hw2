@@ -143,7 +143,35 @@ person = Person.new({name: "Anne Hathaway"})
 person.save
 
 # insert data into roles:
+role = Role.new({character_name: "Bruce Wayne"})
+role.save
 
+role = Role.new({character_name: "Alfred"})
+role.save
+
+role = Role.new({character_name: "Ra's Al Ghul"})
+role.save
+
+role = Role.new({character_name: "Rachel Dawes"})
+role.save
+
+role = Role.new({character_name: "Commissioner Gordon"})
+role.save
+
+role = Role.new({character_name: "Joker"})
+role.save
+
+role = Role.new({character_name: "Harvey Dent"})
+role.save
+
+role = Role.new({character_name: "Bane"})
+role.save
+
+role = Role.new({character_name: "John Blake"})
+role.save
+
+role = Role.new({character_name: "Selina Kyle"})
+role.save
 
 # Prints a header for the movies output
 puts "Movies"
